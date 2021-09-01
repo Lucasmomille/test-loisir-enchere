@@ -1,0 +1,157 @@
+{
+    "results": [
+        {
+            "id": 6275,
+            "title": "House 1",
+            "description": "lorem ipsum",
+            "starting_price": 75,
+            "currency_used": "EUR",
+            "review_average": 4.5,
+            "review_count": 9,
+            "house_type": "Villa",
+            "house_location_city": "Malibu",
+            "house_owner_first_name": "Alexandre",
+            "house_owner_language": "FR",
+            "house_owner_picture_url": "https://dtngh3spc2o8h.cloudfront.net/picture/44ba8fd2-aa28-49b1-8b4c-0c3dc1570986?w=100&h=100&fit=crop",
+            "pictures": [
+                {
+                    "id": "ff38c897-1faa-4c27-ab4d-3364cae6a541",
+                    "url": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80"
+                },
+                {
+                    "id": "248756e2-63e8-4581-8e43-45cd4cd7b484",
+                    "url": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80"
+                }
+            ]
+        },
+        {
+            "id": 27229,
+            "title": "House 2",
+            "description": "lorem ipsum",
+            "starting_price": 90,
+            "currency_used": "EUR",
+            "review_average": 4.8,
+            "review_count": 6,
+            "house_type": "Villa",
+            "house_location_city": "Bayonne",
+            "house_owner_first_name": "Clément",
+            "house_owner_language": "FR",
+            "house_owner_picture_url": "https://dtngh3spc2o8h.cloudfront.net/picture/8eafe87d-9009-4350-a03f-dfba80182d5c?w=100&h=100&fit=crop",
+            "url": "https://www.yescapa.fr/camping-cars/27229/",
+            "pictures": [
+                {
+                    "id": "08d9a500-5a67-4e2e-be29-b683413deb66",
+                    "url": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80"
+                }
+            ]
+        },
+        {
+            "id": 4484,
+            "title": "House 3",
+            "description": "lorem ipsum",
+            "starting_price": 75,
+            "currency_used": "EUR",
+            "review_average": 4.7,
+            "review_count": 21,
+            "house_type": "Villa",
+            "house_location_city": "Bordeaux",
+            "house_owner_first_name": "Frédéric",
+            "house_owner_language": "FR",
+            "house_owner_picture_url": "https://dtngh3spc2o8h.cloudfront.net/picture/4c4906b9-4e9e-45bf-9456-e7a8240239e3?w=100&h=100&fit=crop",
+            "pictures": [
+                {
+                    "id": "8e374e5e-f930-4667-9d55-fa6df3b66a93",
+                    "url": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80"
+                },
+                {
+                    "id": "9249685e-2a20-433c-8af0-0e65b8ca8ea3",
+                    "url": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80"
+                },
+                {
+                    "id": "f78c1623-f3b2-418a-9975-4a3353959c8d",
+                    "url": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80"
+                }
+            ]
+        },
+        {
+            "id": 3981,
+            "title": "House 4",
+            "description": "lorem ipsum",
+            "starting_price": 63,
+            "currency_used": "EUR",
+            "review_average": 4.8,
+            "review_count": 6,
+            "house_type": "Villa",
+            "house_location_city": "Annecy",
+            "house_owner_first_name": "Marie-Paule",
+            "house_owner_language": "FR",
+            "house_owner_picture_url": "https://dtngh3spc2o8h.cloudfront.net/picture/3857c650-99f1-4414-b1f6-6a7b71399bc0?w=100&h=100&fit=crop",
+            "pictures": [
+                {
+                    "id": "4927725e-4046-496b-9bf3-f0f7b7372749",
+                    "url": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80"
+                },
+                {
+                    "id": "1241ead3-e7e1-4693-864d-70cdb72a980a",
+                    "url": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80"
+                }
+            ]
+        },
+        {
+            "id": 6139,
+            "title": "House 5",
+            "description": "lorem ipsum",
+            "starting_price": 75,
+            "currency_used": "EUR",
+            "review_average": 4.9,
+            "review_count": 36,
+            "house_type": "Villa",
+            "house_location_city": "Versailles",
+            "house_owner_first_name": "Franck",
+            "house_owner_language": "FR",
+            "house_owner_picture_url": "https://dtngh3spc2o8h.cloudfront.net/picture/d92a8186-5141-4671-b2fe-b15b5371a630?w=100&h=100&fit=crop",
+            "pictures": [
+                {
+                    "id": "e77d0175-808d-4f04-a1cc-a788c92ad745",
+                    "url": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80"
+                },
+                {
+                    "id": "9a2d8b38-4a53-4c9b-842d-7a5dc0cfb04b",
+                    "url": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80"
+                }
+            ]
+        },
+        {
+            "id": 10742,
+            "title": "House 6",
+            "description": "lorem ipsum",
+            "starting_price": 62,
+            "currency_used": "EUR",
+            "review_average": 4.2,
+            "review_count": 13,
+            "house_type": "Villa",
+            "house_location_city": "Calvisson",
+            "house_owner_first_name": "Cédric",
+            "house_owner_language": "FR",
+            "house_owner_picture_url": "https://dtngh3spc2o8h.cloudfront.net/picture/21a323b7-8904-4669-a69d-f9ee943dac7d?w=100&h=100&fit=crop",
+            "pictures": [
+                {
+                    "id": "9b1909c6-b93a-4928-bb99-3724988bb567",
+                    "url": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80"
+                },
+                {
+                    "id": "e2f3ac5f-50b8-494a-8798-feef9da16314",
+                    "url": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80"
+                },
+                {
+                    "id": "0a378f8c-6558-46d5-9e1c-33aa6b6f1d39",
+                    "url": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80"
+                },
+                {
+                    "id": "f83ba834-0a2f-4f92-9f81-937dbb6cc004",
+                    "url": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    position: relative;
+    background-color: rgba( 236, 236, 236, 1 );
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.error404{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 2rem
+}
+
+.layout{
+    min-height: 100vh;
+}
