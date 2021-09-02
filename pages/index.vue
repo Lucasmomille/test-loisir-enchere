@@ -4,46 +4,40 @@
       <h1 class="hero__tile">Ici des maisons</h1>
     </div>
     <div class="cards">
-      //card avec buttons
-      <div>
-        <Button
-          v-for="(house, index) in firstHouses"
-          :key="house.id"
-          :index="index"
-          :house="house"
-        />
-      </div>
-      <Article
+      <CardHero />
+      <CardLand
         v-for="(house, index) in houses"
         :key="house.id"
         :index="index"
         :house="house"
       />
+      <CardPortrait />
     </div>
   </section>
 </template>
 
 <script>
 /* eslint-disable */
-import Article from "@/components/Article";
-import { mapState } from "vuex";
+import CardLand from "@/components/Cards/CardLand";
+import CardHero from "@/components/Cards/CardHero";
+import CardPortrait from "@/components/Cards/CardPortrait";
+
 export default {
   components: {
-    Article,
+    CardLand,
+    CardHero,
+    CardPortrait,
   },
-  /* data() {
-    return {
-      houses: data.results,
-    };
-  }, */
 
   computed: {
-    houses() {
-      return this.$store.state.houses;
-      //return this.$store.state.houses.slice(3);
+    Firsthouses() {
+      return this.$store.state.houses.slice(0, 1);
     },
-    firstHouses() {
-      return this.$store.state.houses.slice(0, 3);
+    houses() {
+      return this.$store.state.houses.slice(3);
+    },
+    Forthhouses() {
+      return this.$store.state.houses.slice(3, 1);
     },
   },
 

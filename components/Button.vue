@@ -6,13 +6,15 @@
 
 <script>
 /* eslint-disable */
-/* iterer sur house title */
 export default {
   props: {
     house: {
       type: Object,
       required: true,
     },
+  },
+  mounted() {
+    this.$store.dispatch("getHouses");
   },
 };
 </script>

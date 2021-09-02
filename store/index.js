@@ -26,5 +26,5 @@ export const actions = {
 export const mutations = {
     SET_HOUSES(state, houses) {
         state.houses = houses
-    }
+    },
 }
