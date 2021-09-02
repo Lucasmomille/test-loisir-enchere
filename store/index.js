@@ -4,6 +4,7 @@ import data from "@/static/datas.json";
 
 export const state = () => ({
     houses: [],
+    cart: [],
 })
 
 export const getters = {
@@ -20,6 +21,25 @@ export const actions = {
     getHouses({ commit }) {
         let datas = data.results;
         commit('SET_HOUSES', datas)
+    },
+    /* if API do this */
+    /* 
+    async getHouses({ commit }) {
+        await axios.get(
+            'URL'
+        ).then(response => {
+            let data = response.data.results;
+            commit('SET_HOUSES', data)
+        })
+            .catch((error) => {
+                console.log(error)
+            })
+    }
+    */
+
+    addProducts({ commit }, { product, quantity }) {
+        commit('ADD_TO_CART', { product, quantity })
+
     }
 }
 
@@ -27,4 +47,12 @@ export const mutations = {
     SET_HOUSES(state, houses) {
         state.houses = houses
     },
+    ADD_TO_CART(state, { product, quantity }) {
+        state.cart.push(
+            {
+                product,
+                quantity
+            }
+        )
+    }
 }

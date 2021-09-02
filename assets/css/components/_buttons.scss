@@ -1,6 +1,13 @@
 .button {
     border-radius: 50%;
     color: white;
-    background-color: rgba(252, 165, 165, 1);
-    padding: 0.5rem;
+    background-color: rgb(235, 50, 50);
+    padding: 1rem;
+    margin: 0 10px 10px 0;
+    &__purchase{
+        background-color: black;
+        border-radius: 0.5rem;
+        color: white;
+        padding: 0.5rem;
+    }
 }

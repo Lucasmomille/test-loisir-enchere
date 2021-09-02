@@ -1,6 +1,9 @@
 <template>
-  <NuxtLink :to="'/' + house.id">
+  <NuxtLink v-if="house" :to="'/' + house.id">
     <button class="button">{{ house.title }}</button>
+  </NuxtLink>
+  <NuxtLink v-else :to="'/'">
+    <button class="button">Go Home</button>
   </NuxtLink>
 </template>
 

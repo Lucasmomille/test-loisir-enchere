@@ -10,12 +10,14 @@
         class="cardportrait__figure"
       >
         <img
-          src="../../assets/images/house1.jpg"
+          :src="mansion.pictures[0].url"
           alt="photo maison"
           class="cardportrait__img"
         />
-        <figcaption></figcaption>
-        <Button :house="mansion" />
+        <figcaption class="cardportrait__figcaption">
+          <p>{{ mansion.title }}</p>
+          <Button :house="mansion" />
+        </figcaption>
       </figure>
     </div>
   </article>
@@ -28,6 +30,12 @@ import { mapMutations } from "vuex";
 export default {
   components: {
     Button,
+  },
+  props: {
+    house: {
+      type: Object,
+      required: true,
+    },
   },
 
   computed: {

@@ -27,6 +27,12 @@ export default {
   components: {
     Button,
   },
+  props: {
+    house: {
+      type: Object,
+      required: true,
+    },
+  },
 
   computed: {
     firstHouses() {

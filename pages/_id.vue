@@ -1,17 +1,6 @@
 <template>
   <div class="product">
-    <div v-if="house" class="product__container">
-      <figure class="product__figure">
-        <img
-          :src="house.pictures[0].url"
-          alt="photo maison"
-          class="product__img"
-        />
-        <figcaption>
-          {{ house.description }}
-        </figcaption>
-      </figure>
-    </div>
+    <Product v-if="house" :house="house" />
     <div v-else>
       <PageNotFound />
     </div>
@@ -21,16 +10,13 @@
 <script>
 /* eslint-disable */
 import PageNotFound from "@/components/PageNotFound";
+import Product from "@/components/Product";
 import { mapState } from "vuex";
 
 export default {
-  data() {
-    return {
-      hover: false,
-    };
-  },
   components: {
     PageNotFound,
+    Product,
   },
 
   computed: {

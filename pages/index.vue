@@ -4,14 +4,18 @@
       <h1 class="hero__tile">Ici des maisons</h1>
     </div>
     <div class="cards">
-      <CardHero />
-      <CardLand
+      <div
         v-for="(house, index) in houses"
         :key="house.id"
         :index="index"
         :house="house"
-      />
-      <CardPortrait />
+        class="cards__container"
+      >
+        <CardHero v-if="index === 0" :house="house" />
+        <CardLand v-if="index === 3 || index === 7" :house="house" />
+        <CardPortrait v-if="index === 4" :house="house" />
+      </div>
+      <CardLand />
     </div>
   </section>
 </template>
@@ -30,21 +34,14 @@ export default {
   },
 
   computed: {
-    Firsthouses() {
-      return this.$store.state.houses.slice(0, 1);
-    },
     houses() {
-      return this.$store.state.houses.slice(3);
-    },
-    Forthhouses() {
-      return this.$store.state.houses.slice(3, 1);
+      return this.$store.state.houses;
     },
   },
 
   methods: {},
 
   mounted() {
-    //console.log(houses);
     this.$store.dispatch("getHouses");
   },
 };

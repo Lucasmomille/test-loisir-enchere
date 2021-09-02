@@ -3,7 +3,13 @@
         {
             "id": 6275,
             "title": "House 1",
-            "description": "lorem ipsum",
+            "subtitle": "Great house",
+            "tags": [
+                "tag1",
+                "tag2",
+                "tag3"
+            ],
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quod asperiores tempore harum error accusantium possimus consequuntur exercitationem quis praesentium vero, in placeat repellat quasi voluptas id? Aliquam, amet quaerat!",
             "starting_price": 75,
             "currency_used": "EUR",
             "review_average": 4.5,
@@ -27,7 +33,13 @@
         {
             "id": 27229,
             "title": "House 2",
-            "description": "lorem ipsum",
+            "subtitle": "Great house",
+            "tags": [
+                "tag1",
+                "tag2",
+                "tag3"
+            ],
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quod asperiores tempore harum error accusantium possimus consequuntur exercitationem quis praesentium vero, in placeat repellat quasi voluptas id? Aliquam, amet quaerat!",
             "starting_price": 90,
             "currency_used": "EUR",
             "review_average": 4.8,
@@ -48,7 +60,13 @@
         {
             "id": 4484,
             "title": "House 3",
-            "description": "lorem ipsum",
+            "subtitle": "Great house",
+            "tags": [
+                "tag1",
+                "tag2",
+                "tag3"
+            ],
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quod asperiores tempore harum error accusantium possimus consequuntur exercitationem quis praesentium vero, in placeat repellat quasi voluptas id? Aliquam, amet quaerat!",
             "starting_price": 75,
             "currency_used": "EUR",
             "review_average": 4.7,
@@ -76,7 +94,13 @@
         {
             "id": 3981,
             "title": "House 4",
-            "description": "lorem ipsum",
+            "subtitle": "Great house",
+            "tags": [
+                "tag1",
+                "tag2",
+                "tag3"
+            ],
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quod asperiores tempore harum error accusantium possimus consequuntur exercitationem quis praesentium vero, in placeat repellat quasi voluptas id? Aliquam, amet quaerat!",
             "starting_price": 63,
             "currency_used": "EUR",
             "review_average": 4.8,
@@ -96,7 +120,13 @@
         {
             "id": 6139,
             "title": "House 5",
-            "description": "lorem ipsum",
+            "subtitle": "Great house",
+            "tags": [
+                "tag1",
+                "tag2",
+                "tag3"
+            ],
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quod asperiores tempore harum error accusantium possimus consequuntur exercitationem quis praesentium vero, in placeat repellat quasi voluptas id? Aliquam, amet quaerat!",
             "starting_price": 75,
             "currency_used": "EUR",
             "review_average": 4.9,
@@ -120,7 +150,13 @@
         {
             "id": 10742,
             "title": "House 6",
-            "description": "lorem ipsum",
+            "subtitle": "Great house",
+            "tags": [
+                "tag1",
+                "tag2",
+                "tag3"
+            ],
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quod asperiores tempore harum error accusantium possimus consequuntur exercitationem quis praesentium vero, in placeat repellat quasi voluptas id? Aliquam, amet quaerat!",
             "starting_price": 62,
             "currency_used": "EUR",
             "review_average": 4.2,
@@ -152,7 +188,13 @@
         {
             "id": 12742,
             "title": "House 7",
-            "description": "lorem ipsum",
+            "subtitle": "Great house",
+            "tags": [
+                "tag1",
+                "tag2",
+                "tag3"
+            ],
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quod asperiores tempore harum error accusantium possimus consequuntur exercitationem quis praesentium vero, in placeat repellat quasi voluptas id? Aliquam, amet quaerat!",
             "starting_price": 82,
             "currency_used": "EUR",
             "review_average": 4.2,
@@ -172,7 +214,13 @@
         {
             "id": 11742,
             "title": "House 8",
-            "description": "lorem ipsum",
+            "subtitle": "Great house",
+            "tags": [
+                "tag1",
+                "tag2",
+                "tag3"
+            ],
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quod asperiores tempore harum error accusantium possimus consequuntur exercitationem quis praesentium vero, in placeat repellat quasi voluptas id? Aliquam, amet quaerat!",
             "starting_price": 102,
             "currency_used": "EUR",
             "review_average": 4.2,
