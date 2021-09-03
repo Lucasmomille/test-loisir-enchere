@@ -4,7 +4,7 @@ import data from "@/static/datas.json";
 
 export const state = () => ({
     houses: [],
-    cart: [],
+    /* cart: [], */
 })
 
 export const getters = {
@@ -47,6 +47,7 @@ export const mutations = {
     SET_HOUSES(state, houses) {
         state.houses = houses
     },
+    /* For v2
     ADD_TO_CART(state, { product, quantity }) {
         state.cart.push(
             {
@@ -54,5 +55,5 @@ export const mutations = {
                 quantity
             }
         )
-    }
+    } */
 }
