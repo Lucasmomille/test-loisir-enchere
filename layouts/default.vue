@@ -1,5 +1,5 @@
 <template>
-  <div class="layout p-2 min-h-screen font-roboto pb-8">
+  <div class="layout">
     <Nuxt />
   </div>
 </template>

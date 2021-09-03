@@ -1,5 +1,5 @@
 <template>
-  <div :class="{ product__container: !buy, product__container__mask: buy }">
+  <div class="product__container">
     <figure class="product__figure">
       <img
         :src="house.pictures[0].url"
@@ -24,24 +24,26 @@
       </button>
     </div>
     <div v-show="buy" class="modale">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        class="modale__close"
-        @click="buy = false"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M6 18L18 6M6 6l12 12"
-        />
-      </svg>
-      <p>Merci d'avoir acheté {{ house.title }}</p>
-      <p>pour {{ house.starting_price }} €</p>
-      <Button />
+      <div class="modale__container">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="modale__close"
+          @click="buy = false"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M6 18L18 6M6 6l12 12"
+          />
+        </svg>
+        <p>Merci d'avoir acheté {{ house.title }}</p>
+        <p>pour {{ house.starting_price }} €</p>
+        <Button />
+      </div>
     </div>
   </div>
 </template>
